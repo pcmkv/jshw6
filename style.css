@@ -1,0 +1,49 @@
+#first-block{
+    width: 300px;
+    height: 300px;
+    border:1px solid black;
+}
+#folder{
+    width: 52px;
+    height: 52px;
+    background-size: contain ;
+}
+.close-folder{
+    background:no-repeat url("images/folder.png");
+}
+.open-folder{
+    background:no-repeat url("images/folder_open.png");
+}
+#canvas > div{
+    float: left;
+    margin: 20px;
+    color: #fefefe;
+}
+#gallery{
+    height: 250px;
+    width: 100%;
+    border:1px solid red;
+}
+#move-block{
+    width: 50px;
+    height: 50px;
+    background: #57ff71;
+    bottom:0;
+    z-index: 999;
+    position: relative;
+}
+.box{
+    width: 500px;
+    height: 100px;
+    position: relative;
+    background-color: #2c3e50;
+}
+.trigger-box {
+    /*position: absolute;*/
+    width: 15%;
+    height: 90%;
+    margin: 5px 5px;
+    border-radius: 25%;
+    border: 2px solid black;
+    background-color: #f68e56;
+}
